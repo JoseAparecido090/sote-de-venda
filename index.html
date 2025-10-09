@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Online Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja</h1>
+        <nav>
+            <button id="ver-carrinho">Carrinho (<span id="contador-carrinho">0</span>)</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Produtos em Destaque</h2>
+        <section id="produtos" class="vitrine">
+            </section>
+
+        <div id="modal-carrinho" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar">&times;</span>
+                <h3>Seu Carrinho de Compras</h3>
+                <ul id="lista-carrinho">
+                    </ul>
+                <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+                <button id="finalizar-compra" disabled>Finalizar Compra</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja Simples</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
