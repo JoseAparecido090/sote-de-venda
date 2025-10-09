@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Loja Online Simples</title>
+    <title>TechStore - Sua Loja de Eletrônicos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Minha Loja</h1>
-        <nav>
-            <button id="ver-carrinho">Carrinho (<span id="contador-carrinho">0</span>)</button>
-        </nav>
+        <div class="container">
+            <h1><a href="index.html">TechStore</a></h1>
+            <nav>
+                <button id="ver-carrinho" class="btn-carrinho">
+                    🛒 Carrinho (<span id="contador-carrinho">0</span>)
+                </button>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="container">
         <h2>Produtos em Destaque</h2>
         <section id="produtos" class="vitrine">
             </section>
@@ -25,14 +29,18 @@
                 <h3>Seu Carrinho de Compras</h3>
                 <ul id="lista-carrinho">
                     </ul>
-                <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+                <div class="resumo-total">
+                    <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+                </div>
                 <button id="finalizar-compra" disabled>Finalizar Compra</button>
             </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Minha Loja Simples</p>
+        <div class="container">
+            <p>&copy; 2024 TechStore. Projeto para GitHub Pages.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
