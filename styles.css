@@ -42,7 +42,7 @@ header h1 a {
 
 .btn-carrinho {
     background-color: var(--cor-secundaria);
-    color: white;
+    color: rgb(196, 31, 31);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
